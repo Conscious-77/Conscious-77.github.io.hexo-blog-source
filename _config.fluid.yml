@@ -1,7 +1,7 @@
 # Fluid 主题配置
 # 导航栏
 navbar:
-  blog_title: "老七"
+  blog_title: "老七的博客"
   ground_glass:
     enable: true
     blur: 0.7
@@ -9,12 +9,14 @@ navbar:
     - { key: "首页", link: "/" }
     - { key: "归档", link: "/archives/" }
     - { key: "分类", link: "/categories/" }
-    - { key: "标签", link: "/tags/" }
     - { key: "关于", link: "/about/" }
+  social:
+    - { key: "github", link: "https://github.com/Conscious-77" }
+    - { key: "weibo", link: "https://weibo.com/your-weibo-id" }
 
 # 首页配置
 index:
-  banner_img: /img/fjord.jpg
+  banner_img: /img/final_header_image.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   slogan:
@@ -32,13 +34,17 @@ index:
     tag: true
   
   # 文章卡片设置
-  post_default_img: https://raw.githubusercontent.com/fluid-dev/static/master/hexo-theme-fluid/screenshots/post.png
+  post_default_img: null
   post_hover:
     shadow: false
     scale: false
+  
+  # 自动摘要设置
+  auto_excerpt:
+    enable: false          # 关闭自动摘要
 
 # 全局配置
-color:  
+color:
   body_bg_color: "#f8f9fa"
   board_color: "#fff"
   text_color: "#3c4858"
@@ -49,25 +55,26 @@ color:
 post:
   meta:
     author:
-      enable: true
+      enable: false
     date:
-      enable: true
+      enable: false
     category:
       enable: true
     tag:
       enable: true
   
-  banner_img: /img/fjord.jpg
+  banner_img: /img/final_header_image.png
   banner_img_height: 50
   banner_mask_alpha: 0.3
 
+  copyright:
+    enable: false
+
+  default_index_img: /img/final_header_image.png
+
 # 页脚
 footer:
-  content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener">Powered by Hexo</a>
-    <br/>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">Theme Fluid</a>
-  '
+  content: '🏪老七小卖部'
 
 # 功能配置
 fun_features:
