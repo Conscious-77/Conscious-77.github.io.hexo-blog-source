@@ -1,9 +1,9 @@
 ---
 title: About Me
 date: 2025-06-02 20:09:40
-banner_img: /img/fjord.jpg
-banner_img_height: 60
-banner_mask_alpha: 0.3
+banner_img: /img/header_plane.jpg
+banner_img_height: 50
+banner_mask_alpha: 0.6
 ---
 
 <div class="about-content">

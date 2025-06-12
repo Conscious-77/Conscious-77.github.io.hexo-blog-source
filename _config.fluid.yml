@@ -1,7 +1,7 @@
 # Fluid 主题配置
 # 导航栏
 navbar:
-  blog_title: "老七的博客"
+  blog_title: "小七."
   ground_glass:
     enable: true
     blur: 0.7
@@ -16,9 +16,9 @@ navbar:
 
 # 首页配置
 index:
-  banner_img: /img/final_header_image.png
+  banner_img: /img/header_plane.jpg
   banner_img_height: 60
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0.6
   slogan:
     enable: true
     text: "Conscious At Times"
@@ -34,14 +34,9 @@ index:
     tag: true
   
   # 文章卡片设置
-  post_default_img: null
   post_hover:
     shadow: false
     scale: false
-  
-  # 自动摘要设置
-  auto_excerpt:
-    enable: false          # 关闭自动摘要
 
 # 全局配置
 color:
@@ -50,6 +45,24 @@ color:
   text_color: "#3c4858"
   link_color: "#3c4858"
   link_hover_color: "#1abc9c"
+
+# 字体配置
+font:
+  global:
+    font_family: "JetBrains Mono, monospace"
+    font_size: "0.95rem"
+    line_height: "1.8"
+  title:
+    font_family: "JetBrains Mono, monospace"
+    font_size: "1.5rem"
+    font_weight: "500"
+  post:
+    font_family: "JetBrains Mono, monospace"
+    font_size: "0.95rem"
+    line_height: "1.8"
+  code:
+    font_family: "JetBrains Mono, monospace"
+    font_size: "0.9rem"
 
 # 文章页面
 post:
@@ -63,18 +76,17 @@ post:
     tag:
       enable: true
   
-  banner_img: /img/final_header_image.png
+  banner_img: /img/header_plane.jpg
   banner_img_height: 50
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0.6
+  default_index_img: /img/fjord.jpg
 
   copyright:
     enable: false
 
-  default_index_img: /img/final_header_image.png
-
 # 页脚
 footer:
-  content: '🏪老七小卖部'
+  content: '" Conscious At Times. "'
 
 # 功能配置
 fun_features:
@@ -98,6 +110,30 @@ search:
   field: post
   content: true
 
+# 归档页面
+archive:
+  banner_img: /img/header_plane.jpg
+  banner_img_height: 50
+  banner_mask_alpha: 0.6
+
+# 分类页面
+category:
+  banner_img: /img/header_plane.jpg
+  banner_img_height: 50
+  banner_mask_alpha: 0.6
+
+# 标签页面
+tag:
+  banner_img: /img/header_plane.jpg
+  banner_img_height: 50
+  banner_mask_alpha: 0.6
+
+# 关于页面
+about:
+  banner_img: /img/header_plane.jpg
+  banner_img_height: 50
+  banner_mask_alpha: 0.6
+
 # 图片预览
 image_viewer:
   enable: true
@@ -117,3 +153,12 @@ custom_css:
   enable: true
   links:
     - /css/custom.css 
+
+# 注入配置
+injects:
+  style:
+    - /css/custom.css
+  variable:
+    - /css/_variables/custom.styl
+  mixin:
+    - /css/_mixins/custom.styl 
