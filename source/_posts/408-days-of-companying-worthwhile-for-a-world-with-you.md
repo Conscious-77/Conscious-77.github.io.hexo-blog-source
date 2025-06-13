@@ -5,6 +5,7 @@ categories:
 tags: 
 banner_img: /img/header_plane.jpg
 index_img: /img/fjord.jpg
+excerpt: "愿新年，胜旧年"
 ---
 
 我记得最最开始，是在杭州的公交车上，困倦的我靠着他的左侧肩膀打盹，半阖着眼看见他手里的荧幕向外倾斜了一下，然后熄灭，我迟疑了一秒却瞬间打消那个念头。
