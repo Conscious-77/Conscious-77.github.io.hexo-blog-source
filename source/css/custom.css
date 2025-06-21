@@ -22,3 +22,13 @@
     margin: 0 auto;
     padding: 0 20px;
 } 
+
+:root {
+  --content-width: 95%; /* 增加内容区域的百分比宽度 */
+}
+
+/* 调整内容区域宽度和间距 */
+.container {
+  width: var(--content-width);
+  max-width: 1400px; /* 增加容器的最大宽度限制 */
+} 
