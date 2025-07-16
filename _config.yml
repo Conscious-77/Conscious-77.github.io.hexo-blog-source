@@ -63,3 +63,8 @@ deploy:
   type: git
   repo: https://github.com/Conscious-77/Conscious-77.github.io.git
   branch: gh-pages
+
+search:
+  path: local-search.xml
+  field: post
+  content: true
