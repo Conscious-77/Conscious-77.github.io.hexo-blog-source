@@ -1,5 +1,5 @@
 ---
-title: 1127 ThanksGiving Day
+title: ThanksGiving Day
 date: 2025-11-27 01:30:00
 description: "恰好离职一年啦。"
 cover: /img/default-cover.jpg
