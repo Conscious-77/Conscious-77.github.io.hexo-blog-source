@@ -1,13 +1,7 @@
 ---
 title: It is inevitable
 date: 2026-03-01 00:00:00
-categories:
-  - 人生随笔
-tags:
-  - 情感
-  - 自我
-  - 成长
-description: "你并不需要用世俗的'连接感'来强行定义自己的幸福。"
+description:  "你并不需要用世俗的'连接感'来强行定义自己的幸福。"
 cover: /img/default-cover.jpg
 ---
 
